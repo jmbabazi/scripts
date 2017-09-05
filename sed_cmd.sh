@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 sed -i 's/.//61' eth_l8000Hz_data.csv
 sed -i 's/.//61' eth_r1000Hz_data.csv
 sed -i 's/.//61' eth_r2000Hz_data.csv
