@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 vim -E -s  eth_l8000Hz_data.csv  << EOF
 :%s/ETH/call insert_audio_numeric_data('ETH/g
 :%s/,/','/g
