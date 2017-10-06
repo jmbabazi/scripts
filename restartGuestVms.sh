@@ -24,3 +24,13 @@ sudo -u root VBoxManage modifyvm "$vm_name" --vrdeport $port_num >> $log_file 2>
  # Start the machine
 sudo -u root VBoxManage startvm "$vm_name" --type headless >> $log_file 2>&1
 done
+
+
+
+#ReadMe
+########
+#Ensure that you have registered all the virtual machine 
+#VBoxManage registervm $HomeDir/VirtualBox\ VMs/RwandaReport/RwandaReport.vbox
+#VBoxManage registervm $HomeDir/VirtualBox\ VMs/MetadataServer/MetadataServer.vbox
+#VBoxManage registervm $HomeDir/VirtualBox\ VMs/ButaroReporting/ButaroReporting.vbox
+########
